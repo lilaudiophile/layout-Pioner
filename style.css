@@ -426,6 +426,10 @@ ul {
     opacity: 0;
 }
 
+.mobile-menu__bottom {
+    display: none;
+}
+
 @media (max-width: 1200px) {
     .hero__title {
         font-size: 52px;
@@ -659,7 +663,7 @@ ul {
     .nav__list {
         gap: 20px;
     }
-    
+
     .mobile-menu__bottom {
         gap: 24px;
     }
